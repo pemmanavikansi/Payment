@@ -16,7 +16,7 @@ public class PaymentController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "welcome to payment service";
+        return "welcome to payment-service";
     }
 
     @PostMapping("/doPayment")
